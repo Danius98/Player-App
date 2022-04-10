@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<h1>Diferencia de edad</h1>
+
+<script>
+    function saltolinea(){
+        document.write("<br><br>");
+    }
+
+    function imprimir(mensaje){
+        document.write(mensaje);
+        saltolinea();
+    }
+
+    function diferencia(kathe, daniel){
+        var daniel = 2022 - 1998;
+        var kathe = 2022 - 1992;
+        var dif = kathe - daniel;
+        return "La diferencia de edad son " + dif + " años";
+    }
+
+    imprimir(diferencia())
+</script>
